@@ -117,6 +117,7 @@ For more information about notifications, see "About notifications."
 
 ### code 1
 
+
 ## 9. Emoji
 
 :bowtie: 
@@ -162,5 +163,26 @@ you can escape it by enclosing the word or phrase in double backticks (``).
 | Header      | Title       |
 | Paragraph   | Text        |
 
+## link for header in Same .md file
 [link](#code-1)
 
+
+## 15. Alignment
+You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+
+## 16. Definition Lists
+
+Some Markdown processors allow you to create definition lists of terms and their corresponding definitions. To create a definition list, type the term on the first line. On the next line, type a colon followed by a space and the definition.
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
