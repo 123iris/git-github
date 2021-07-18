@@ -43,3 +43,9 @@ v1: digest: sha256:740ff2dc3e59733d61fc25316a841b20fea91c6a1f5280ce25ed289d2b0de
 
 ![dockerPushGithub.com.png](images/dockerPushGithub.com.png)
 ![dockerImageAsPackage.png](images/dockerImageAsPackage.png)
+
+
+# References
+
+1. [towardsdatascience.com](https://towardsdatascience.com/setting-up-github-package-registry-with-docker-and-golang-7a75a2533139)
+1. [docs.github.com](https://docs.github.com/en/enterprise-server@3.0/packages/working-with-a-github-packages-registry/working-with-the-docker-registry)
