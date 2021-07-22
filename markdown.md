@@ -5,24 +5,20 @@
 1. Bold ( ** ** [or] __ __ )
    
    **Hello** __Hello__
-   
 
 1. Italics (* * [or] _ _)
 
    *Hello* _Hello_
 
-
-3. Bold and nested italic ( ** ** and _ _ )
+1. Bold and nested italic ( ** ** and _ _ )
 
    **This text is _extremely_ important**
 
-
-4. All bold and italic ( *** *** )
+1. All bold and italic ( *** *** )
 
    ***This is just a test***
 
-
-5. Strikethrough (~~ ~~)
+1. Strikethrough (~~ ~~)
 
    ~~This is a strike~~
 
@@ -106,7 +102,7 @@ To mark a task as complete, use [x].
 
 If a task list item description begins with a parenthesis, you'll need to escape it with \:
 
-- [ ] \(Optional) Open a followup issue
+- [ ] \(Optional) Open a follow up issue
 
 ## 8. Mentioning people and teams
 
@@ -115,8 +111,9 @@ This will trigger a notification and bring their attention to the conversation.
 People will also receive a notification if you edit a comment to mention their username or team name. 
 For more information about notifications, see "About notifications."
 
-### code 1
+### code 
 
+`this is code`
 
 ## 9. Emoji
 
@@ -170,7 +167,7 @@ you can escape it by enclosing the word or phrase in double backticks (``).
 ## 15. Alignment
 You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
 
-| Syntax      | Description | Test Text     |
+| Syntax for left      | Description for center | Test Text for right  |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
@@ -187,3 +184,5 @@ Some Markdown processors allow you to create definition lists of terms and their
   <dd>This is one definition of the second term. </dd>
   <dd>This is another definition of the second term.</dd>
 </dl>
+
+To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
