@@ -107,3 +107,4 @@ Here are some other introductory resources:
 # References
 
 1. [www.markdownguide.org](https://www.markdownguide.org/getting-started/)
+2. [docs.github.com](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
