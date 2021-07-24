@@ -117,8 +117,9 @@ For more information about notifications, see "About notifications."
 
 ## 9. Emoji
 
-:bowtie: 
+:bowtie:  
 Gone camping! :tent: Be back soon.
+:fire: 
 
 That is so funny! :joy:
 
