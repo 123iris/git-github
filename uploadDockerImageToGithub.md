@@ -45,6 +45,47 @@ v1: digest: sha256:740ff2dc3e59733d61fc25316a841b20fea91c6a1f5280ce25ed289d2b0de
 ![dockerImageAsPackage.png](images/dockerImageAsPackage.png)
 
 
+# Upload docker image as github container registry(ghcr)
+
+## Follow step 1 & step 2 from above 
+
+## Rename docker image to ghcr.io
+
+```
+syed@syed-Latitude-3490:~$ docker tag ubuntu:latest ghcr.io/123iris/dockerimagepackages:ubuntu1
+syed@syed-Latitude-3490:~$ docker tag ubuntu:latest ghcr.io/123iris/dockerimagepackages:ubuntu2
+```
+
+## push docker image to github container registry
+
+``` 
+syed@syed-Latitude-3490:~$ docker login ghcr.io -u 123iris -p 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
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /home/syed/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+```
+```
+syed@syed-Latitude-3490:~$ docker push ghcr.io/123iris/dockerimagepackages:ubuntu1
+The push refers to repository [ghcr.io/123iris/dockerimagepackages]
+a70daca533d0: Pushed 
+ubuntu1: digest: sha256:778fdd9f62a6d7c0e53a97489ab3db17738bc5c1acf09a18738a2a674025eae6 size: 529
+
+
+syed@syed-Latitude-3490:~$ docker push ghcr.io/123iris/dockerimagepackages:ubuntu2
+The push refers to repository [ghcr.io/123iris/dockerimagepackages]
+a70daca533d0: Layer already exists 
+ubuntu2: digest: sha256:778fdd9f62a6d7c0e53a97489ab3db17738bc5c1acf09a18738a2a674025eae6 size: 529
+syed@syed-Latitude-3490:~$ 
+
+```
+
+## Verify in github
+
+![dockerImageAsGithubContainerRegistry.png](images/dockerImageAsGithubContainerRegistry.png)
+![dockerImageAsGithubContainerRegistryDetails.png](images/dockerImageAsGithubContainerRegistryDetails.png)
 # References
 
 1. [towardsdatascience.com](https://towardsdatascience.com/setting-up-github-package-registry-with-docker-and-golang-7a75a2533139)
